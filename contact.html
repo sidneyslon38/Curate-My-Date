@@ -28,41 +28,59 @@
 </head>
 
 <body>
-<nav>
-  <a href="about.html">About</a>
-  <a href="contact.html">Contact</a>
-</nav>
+<header class="site-header">
+  <a class="logo" href="index.html">Curate My Date</a>
+  <nav class="site-nav">
+    <a href="about.html">About</a>
+    <a href="itineraries.html">Itineraries</a>
+    <a class="nav-cta active" href="contact.html">Contact</a>
+  </nav>
+</header>
 
-<button class="header-button" onclick="window.location.href='index.html'">
-  CURATE MY DATE
-</button>
+<main class="page">
+  <section class="hero compact">
+    <div class="hero-content">
+      <p class="eyebrow">Get in touch</p>
+      <h1>We’d love to hear from you.</h1>
+      <p class="lead">Have a question or a special request? Send a note and we’ll get back to you quickly.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="mailto:contact@curatemydate.com">Email us</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <h3>Quick help</h3>
+      <ul>
+        <li>General questions and pricing</li>
+        <li>Custom requests and special occasions</li>
+        <li>Feedback on your experience</li>
+      </ul>
+    </div>
+  </section>
 
-<h3>Get in Touch</h3>
+  <section class="section">
+    <div class="card-grid">
+      <article class="info-card">
+        <i class="fa fa-envelope"></i>
+        <h4>General inquiries</h4>
+        <p>Questions about the service, pricing, or how it works? We’re happy to help.</p>
+      </article>
+      <article class="info-card">
+        <i class="fa fa-question-circle"></i>
+        <h4>Custom requests</h4>
+        <p>Have a unique situation or a big occasion? Tell us the details and we’ll tailor it.</p>
+      </article>
+      <article class="info-card">
+        <i class="fa fa-comments"></i>
+        <h4>Feedback</h4>
+        <p>Used our service? We’d love to hear what you loved (and how to improve).</p>
+      </article>
+    </div>
+  </section>
+</main>
 
-<div class="intro">
-  <p>
-    Want to learn more about our services? Need help with a special request? We'd love to hear from you!
-  </p>
-
-  <div class="scenario">
-    <i class="fa fa-envelope"></i>
-    <p><strong>General Inquiries:</strong> Reach out for any questions about our itinerary planning services, pricing, or how we work.</p>
-  </div>
-
-  <div class="scenario">
-    <i class="fa fa-question-circle"></i>
-    <p><strong>Custom Requests:</strong> Have a unique situation or need something extra special? Let us know and we'll do our best to accommodate.</p>
-  </div>
-
-  <div class="scenario">
-    <i class="fa fa-comments"></i>
-    <p><strong>Feedback:</strong> Used our service? We'd love to hear how your date went!</p>
-  </div>
-</div>
-
-<button class="contact-button" onclick="window.location.href='mailto:contact@curatemydate.com'">
-    Contact Us
-</button>
+<footer class="site-footer">
+  <p>Curate My Date • NYC</p>
+</footer>
 </body>
 
 </html>
